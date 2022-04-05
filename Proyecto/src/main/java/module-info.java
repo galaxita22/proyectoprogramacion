@@ -10,6 +10,6 @@ module com.example.proyecto {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.example.proyecto to javafx.fxml;
-    exports com.example.proyecto;
+    opens cl.utalca.alumnos.proyecto to javafx.fxml;
+    exports cl.utalca.alumnos.proyecto;
 }

@@ -11,7 +11,7 @@ public class HelloApplication extends Application {
 
     public void  start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 320, 340);
         stage.setTitle("Calculadora");
         stage.setScene(scene);
         stage.show();
@@ -21,7 +21,4 @@ public class HelloApplication extends Application {
         launch();
     }
 
-    public static void funciondeprueba(){
-        System.out.println("funcion de prueba");
-    }
 }

@@ -94,9 +94,6 @@ public class Draw {
         gc.beginPath();
         gc.moveTo(10 + a, 100);
         gc.lineTo(30 + a, 100);
-        gc.lineTo(30 + a, 120);
-        gc.lineTo(10 + a, 120);
-        gc.lineTo(10 + a, 140);
         gc.lineTo(30 + a, 140);
         gc.stroke();
     }

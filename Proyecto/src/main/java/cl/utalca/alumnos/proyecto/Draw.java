@@ -102,10 +102,11 @@ public class Draw {
         gc.beginPath();
         gc.moveTo(10 + a, 100);
         gc.lineTo(30 + a, 100);
-        gc.lineTo(30 + a, 120);
-        gc.lineTo(10 + a, 120);
-        gc.lineTo(10 + a, 140);
         gc.lineTo(30 + a, 140);
+        gc.lineTo(10 + a, 140);
+        gc.lineTo(10 + a, 100);
+        gc.moveTo(10 + a, 120);
+        gc.lineTo(30 + a, 120);
         gc.stroke();
     }
     public static void Dibujar9(GraphicsContext gc, int contador) {

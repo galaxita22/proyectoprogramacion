@@ -8,7 +8,8 @@ import javafx.scene.paint.Color;
 
 public class Draw {
     private static final int[] valores = {0,30,60,90,120,150,180,210,240,270};
-    //dibujos para num y oper
+    /*dibujos para num y oper
+    la altura está entre 100 y 140*/
 
     public static void Dibujar0(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -75,8 +76,6 @@ public class Draw {
         gc.stroke();
     }
 
-    //la altura de los numeros está entre 100 y 140
-
     public static void Dibujar6(GraphicsContext gc, int contador) {
         int a = valores[contador];
         gc.beginPath();
@@ -112,12 +111,11 @@ public class Draw {
     public static void Dibujar9(GraphicsContext gc, int contador) {
         int a = valores[contador];
         gc.beginPath();
-        gc.moveTo(10 + a, 100);
+        gc.moveTo(30 + a, 140);
         gc.lineTo(30 + a, 100);
-        gc.lineTo(30 + a, 120);
+        gc.lineTo(10 + a, 100);
         gc.lineTo(10 + a, 120);
-        gc.lineTo(10 + a, 140);
-        gc.lineTo(30 + a, 140);
+        gc.lineTo(30 + a, 120);
         gc.stroke();
     }
 

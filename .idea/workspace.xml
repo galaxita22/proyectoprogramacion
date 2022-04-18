@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="dibuja 8">
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
+    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="dibuja 9">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,11 @@
       <workItem from="1650253297533" duration="2000" />
       <workItem from="1650253316879" duration="271000" />
       <workItem from="1650298395504" duration="719000" />
-      <workItem from="1650299123535" duration="1937000" />
+      <workItem from="1650299123535" duration="2751000" />
+      <workItem from="1650302993145" duration="895000" />
+      <workItem from="1650304917095" duration="29000" />
+      <workItem from="1650306064954" duration="296000" />
+      <workItem from="1650306620501" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -101,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650300614948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dibuja 9">
+      <created>1650301119822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650301119822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +134,7 @@
     <MESSAGE value="dibujar numero 6" />
     <MESSAGE value="dibuja 7" />
     <MESSAGE value="dibuja 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="dibuja 8" />
+    <MESSAGE value="dibuja 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="dibuja 9" />
   </component>
 </project>

@@ -74,15 +74,19 @@ public class Draw {
         gc.lineTo(10 + a, 140);
         gc.stroke();
     }
+
+    //la altura de los numeros está entre 100 y 140
+
     public static void Dibujar6(GraphicsContext gc, int contador) {
         int a = valores[contador];
         gc.beginPath();
-        gc.moveTo(10 + a, 100);
-        gc.lineTo(30 + a, 100);
-        gc.lineTo(30 + a, 120);
+        gc.moveTo(30 + a, 100);
+        gc.lineTo(10 + a, 100);
         gc.lineTo(10 + a, 120);
-        gc.lineTo(10 + a, 140);
+        gc.lineTo(30 + a, 120);
         gc.lineTo(30 + a, 140);
+        gc.lineTo(10 + a, 140);
+        gc.lineTo(10 + a, 120);
         gc.stroke();
     }
     public static void Dibujar7(GraphicsContext gc, int contador) {

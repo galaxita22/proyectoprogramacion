@@ -136,7 +136,6 @@ public class Draw {
         gc.moveTo(20 + a, 120);
         gc.lineTo(15 + a, 120);
         gc.lineTo(25 + a, 120);
-        gc.stroke();
     }
     public static void DibujarMultiplicacion(GraphicsContext gc, int contador){
         int a = valores[contador];
@@ -145,7 +144,9 @@ public class Draw {
         gc.lineTo(25 + a, 125);
         gc.moveTo(25 + a, 120);
         gc.lineTo(20 + a, 125);
+        gc.setStroke(Color.RED);
         gc.stroke();
+        gc.setStroke(Color.BLACK);
     }
 }
 

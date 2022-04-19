@@ -153,6 +153,15 @@ public class Draw {
         gc.stroke();
         gc.setStroke(Color.BLACK);
     }
+
+    // hice este "division" para dejar listos todos los operadores con el color correspondiente, no tomen en cuenta el dibujo pq no es lo solicitado
+    public static void  DibujarDivision(GraphicsContext gc, int contador){
+        int a = valores[contador];
+        gc.beginPath();
+        gc.moveTo(25 + a, 120);
+        gc.lineTo(20 + a, 130);
+        gc.stroke();
+    }
 }
 
 

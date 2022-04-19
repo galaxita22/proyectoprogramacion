@@ -21,7 +21,6 @@ public class Draw {
         gc.lineTo(10 + a, 100);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
 
     public static void Dibujar1(GraphicsContext gc, int contador){
@@ -31,7 +30,7 @@ public class Draw {
         gc.lineTo(15+a,140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
+
     }
     public static void Dibujar2(GraphicsContext gc, int contador){
         int a = valores[contador];
@@ -44,7 +43,6 @@ public class Draw {
         gc.lineTo(30+a,140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar3(GraphicsContext gc, int contador){
         int a = valores[contador];
@@ -60,7 +58,6 @@ public class Draw {
         gc.lineTo(10+a,140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar4(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -72,7 +69,6 @@ public class Draw {
         gc.lineTo(30 + a, 140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar5(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -85,7 +81,6 @@ public class Draw {
         gc.lineTo(10 + a, 140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
 
     public static void Dibujar6(GraphicsContext gc, int contador) {
@@ -100,7 +95,6 @@ public class Draw {
         gc.lineTo(10 + a, 120);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar7(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -110,7 +104,6 @@ public class Draw {
         gc.lineTo(30 + a, 140);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar8(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -124,7 +117,6 @@ public class Draw {
         gc.lineTo(30 + a, 120);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void Dibujar9(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -136,7 +128,6 @@ public class Draw {
         gc.lineTo(30 + a, 120);
         gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
 
     public static void DibujarSuma(GraphicsContext gc, int contador) {
@@ -150,7 +141,6 @@ public class Draw {
         gc.lineTo(25 + a, 120);
         gc.setStroke(Color.RED);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void DibujarResta(GraphicsContext gc, int contador) {
         int a = valores[contador];
@@ -160,7 +150,6 @@ public class Draw {
         gc.lineTo(25 + a, 120);
         gc.setStroke(Color.RED);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
     public static void DibujarMultiplicacion(GraphicsContext gc, int contador){
         int a = valores[contador];
@@ -171,7 +160,6 @@ public class Draw {
         gc.lineTo(20 + a, 125);
         gc.setStroke(Color.RED);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
 
     // hice este "division" para dejar listos todos los operadores con el color correspondiente, no tomen en cuenta el dibujo pq no es lo solicitado
@@ -182,7 +170,6 @@ public class Draw {
         gc.lineTo(20 + a, 130);
         gc.setStroke(Color.RED);
         gc.stroke();
-        gc.setStroke(Color.BLACK);
     }
 }
 

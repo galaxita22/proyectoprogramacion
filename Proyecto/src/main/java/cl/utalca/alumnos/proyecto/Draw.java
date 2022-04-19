@@ -160,7 +160,9 @@ public class Draw {
         gc.beginPath();
         gc.moveTo(25 + a, 120);
         gc.lineTo(20 + a, 130);
+        gc.setStroke(Color.RED);
         gc.stroke();
+        gc.setStroke(Color.BLACK);
     }
 }
 

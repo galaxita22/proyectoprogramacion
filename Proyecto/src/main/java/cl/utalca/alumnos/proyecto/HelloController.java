@@ -111,6 +111,10 @@ public class HelloController implements Initializable{
                 Draw.DibujarSuma(gc, contador);
                 contador += 1;
             }
+            case"-" ->{
+                System.out.println("a");
+            }
+
         }
     }
     }

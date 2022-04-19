@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="dibuja 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,6 +93,7 @@
       <workItem from="1650304917095" duration="29000" />
       <workItem from="1650306064954" duration="296000" />
       <workItem from="1650306620501" duration="2463000" />
+      <workItem from="1650336991716" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -136,5 +147,10 @@
     <MESSAGE value="dibuja 8" />
     <MESSAGE value="dibuja 9" />
     <option name="LAST_COMMIT_MESSAGE" value="dibuja 9" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
+    </SUITE>
   </component>
 </project>

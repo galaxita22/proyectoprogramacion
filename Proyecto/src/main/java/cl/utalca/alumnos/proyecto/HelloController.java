@@ -106,6 +106,18 @@ public class HelloController implements Initializable{
         textInput.setText(textInput.getText()+operador);
         statusB = statusA;
         statusA = 2;
+        switch (operador) {
+            case"+" ->{
+                Draw.DibujarSuma(gc, contador);
+                contador += 1;
+            }
+            case"-" ->{
+                Draw.DibujarResta(gc, contador);
+                contador +=1;
+            }
+
+
+        }
     }
     }
 

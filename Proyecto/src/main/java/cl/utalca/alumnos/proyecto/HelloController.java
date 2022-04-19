@@ -112,8 +112,10 @@ public class HelloController implements Initializable{
                 contador += 1;
             }
             case"-" ->{
-                System.out.println("a");
+                Draw.DibujarResta(gc, contador);
+                contador +=1;
             }
+
 
         }
     }

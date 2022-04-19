@@ -128,7 +128,9 @@ public class Draw {
         gc.lineTo(20 + a, 120);
         gc.lineTo(15 + a, 120);
         gc.lineTo(25 + a, 120);
+        gc.setStroke(Color.RED);
         gc.stroke();
+        gc.setStroke(Color.BLACK);
     }
     public static void DibujarResta(GraphicsContext gc, int contador) {
         int a = valores[contador];

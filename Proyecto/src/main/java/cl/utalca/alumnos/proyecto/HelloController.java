@@ -115,8 +115,10 @@ public class HelloController implements Initializable{
                 Draw.DibujarResta(gc, contador);
                 contador +=1;
             }
-
-
+            case"*" ->{
+                Draw.DibujarMultiplicacion(gc, contador);
+                contador +=1;
+            }
         }
     }
     }

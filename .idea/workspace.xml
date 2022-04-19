@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="Dibujar division BETA">
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
-    </list>
+    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="Testeo y confirmacion de la implementación de colores tanto como para los números y para operadores" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1650306620501" duration="2463000" />
       <workItem from="1650336991716" duration="623000" />
       <workItem from="1650340302013" duration="916000" />
-      <workItem from="1650387158107" duration="2678000" />
+      <workItem from="1650387158107" duration="3514000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -215,7 +212,98 @@
       <option name="project" value="LOCAL" />
       <updated>1650389745146</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="todos los operadores con color rojo">
+      <created>1650390048170</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390048170</updated>
+    </task>
+    <task id="LOCAL-00019" summary="color &quot;deepskyblue&quot; para 0">
+      <created>1650390147970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390147970</updated>
+    </task>
+    <task id="LOCAL-00020" summary="color &quot;deepskyblue&quot; para 1">
+      <created>1650390157411</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390157411</updated>
+    </task>
+    <task id="LOCAL-00021" summary="color &quot;deepskyblue&quot; para 2">
+      <created>1650390169771</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390169771</updated>
+    </task>
+    <task id="LOCAL-00022" summary="color &quot;deepskyblue&quot; para 3">
+      <created>1650390179940</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390179940</updated>
+    </task>
+    <task id="LOCAL-00023" summary="color &quot;deepskyblue&quot; para 4">
+      <created>1650390191938</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390191938</updated>
+    </task>
+    <task id="LOCAL-00024" summary="color &quot;deepskyblue&quot; para 5">
+      <created>1650390201502</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390201502</updated>
+    </task>
+    <task id="LOCAL-00025" summary="color &quot;deepskyblue&quot; para 6">
+      <created>1650390210619</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390210619</updated>
+    </task>
+    <task id="LOCAL-00026" summary="color &quot;deepskyblue&quot; para 6">
+      <created>1650390217082</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390217082</updated>
+    </task>
+    <task id="LOCAL-00027" summary="color &quot;deepskyblue&quot; para 7">
+      <created>1650390243150</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390243150</updated>
+    </task>
+    <task id="LOCAL-00028" summary="color &quot;deepskyblue&quot; para 8">
+      <created>1650390252547</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390252547</updated>
+    </task>
+    <task id="LOCAL-00029" summary="color &quot;deepskyblue&quot; para 9">
+      <created>1650390261951</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390261951</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Testeo y confirmacion de la implementación de colores tanto como para los números y para operadores">
+      <created>1650390372942</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1650390372942</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,9 +328,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dibujar numero 6" />
-    <MESSAGE value="dibuja 7" />
-    <MESSAGE value="dibuja 8" />
     <MESSAGE value="dibuja 9" />
     <MESSAGE value="prueba" />
     <MESSAGE value="Dibuja multiplicación" />
@@ -256,7 +341,19 @@
     <MESSAGE value="Color &quot;DEEPSKYBLUE&quot; para el numero 1" />
     <MESSAGE value="Color &quot;DEEPSKYBLUE&quot; para el numero 2" />
     <MESSAGE value="Dibujar division BETA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dibujar division BETA" />
+    <MESSAGE value="todos los operadores con color rojo" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 0" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 1" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 2" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 3" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 4" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 5" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 6" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 7" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 8" />
+    <MESSAGE value="color &quot;deepskyblue&quot; para 9" />
+    <MESSAGE value="Testeo y confirmacion de la implementación de colores tanto como para los números y para operadores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testeo y confirmacion de la implementación de colores tanto como para los números y para operadores" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

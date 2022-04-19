@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="Color rojo al dibujo del operador correspondiente a la multiplicación" />
+    <list default="true" id="6138c67b-a80f-4774-a56b-23e5a1f5ba03" name="Changes" comment="Color rojo para el operador de multiplicación">
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +94,7 @@
       <workItem from="1650306620501" duration="2463000" />
       <workItem from="1650336991716" duration="623000" />
       <workItem from="1650340302013" duration="916000" />
-      <workItem from="1650387158107" duration="1344000" />
+      <workItem from="1650387158107" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -142,7 +145,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650388508265</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Color rojo para resta">
+      <created>1650388618291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650388618291</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Color rojo para suma">
+      <created>1650388633716</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650388633716</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Color rojo para el operador de multiplicación">
+      <created>1650388778570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650388778570</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +198,10 @@
     <MESSAGE value="prueba" />
     <MESSAGE value="Dibuja multiplicación" />
     <MESSAGE value="Color rojo al dibujo del operador correspondiente a la multiplicación" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color rojo al dibujo del operador correspondiente a la multiplicación" />
+    <MESSAGE value="Color rojo para resta" />
+    <MESSAGE value="Color rojo para suma" />
+    <MESSAGE value="Color rojo para el operador de multiplicación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color rojo para el operador de multiplicación" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

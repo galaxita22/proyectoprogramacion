@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="prueba">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="Borrar todo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1650306620501" duration="2463000" />
       <workItem from="1650336991716" duration="623000" />
       <workItem from="1650340302013" duration="916000" />
-      <workItem from="1650513952634" duration="3183000" />
+      <workItem from="1650513952634" duration="3975000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -146,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650340656980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Borrar todo">
+      <created>1650517460865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650517460865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +179,8 @@
     <MESSAGE value="dibuja 8" />
     <MESSAGE value="dibuja 9" />
     <MESSAGE value="prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
+    <MESSAGE value="Borrar todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Borrar todo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -35,6 +35,8 @@ public class HelloController implements Initializable{
         textInput.setText("");
         statusA = 2;
         statusB = statusA;
+        gc.clearRect(0,0,449,278);
+        contador = 0;
     }
 
     public void ClickBorrar (ActionEvent borrauno){
@@ -44,6 +46,7 @@ public class HelloController implements Initializable{
             textInput.setText(borrar);
             statusA = statusB;
             contador-=1;
+            //gc.clearRect();
             //Borrar en canvas
         }
     }
@@ -107,7 +110,6 @@ public class HelloController implements Initializable{
                 contador += 1;
             }
         }
-
     }
 
     public void ClickOperadores (ActionEvent oper){
@@ -133,9 +135,6 @@ public class HelloController implements Initializable{
                 contador-=1;
                 Draw.DibujarDivision(gc, contador);
                 b=60;
-
-
-
             }
         }
     }
@@ -148,11 +147,6 @@ public class HelloController implements Initializable{
         statusA = 3;
     }
 
-    @FXML
-    public void ClickDibujar (ActionEvent draw){
-        gc.setFill(Color.AQUA);
-        gc.fillRect(10,10,100,100);
-    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

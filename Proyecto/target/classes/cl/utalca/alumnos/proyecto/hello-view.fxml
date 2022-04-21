@@ -5,10 +5,10 @@
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.utalca.alumnos.proyecto.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.utalca.alumnos.proyecto.HelloController">
    <children>
 
-      <TextField fx:id="textInput" layoutX="33.0" layoutY="45.0" prefHeight="26.0" prefWidth="206.0" />
+      <TextField fx:id="textInput" disable="true" layoutX="33.0" layoutY="45.0" prefHeight="26.0" prefWidth="255.0" />
       <HBox fx:id="exprHbox" layoutY="99.0" />
       <GridPane layoutX="33.0" layoutY="91.0" prefHeight="229.0" prefWidth="255.0">
         <columnConstraints>
@@ -45,8 +45,7 @@
             <Button mnemonicParsing="false" onAction="#ClickBorrarTodo" prefHeight="107.0" prefWidth="91.0" text="CE" GridPane.columnIndex="4" GridPane.rowIndex="1" />
          </children>
       </GridPane>
-      <Button layoutX="239.0" layoutY="45.0" mnemonicParsing="false" onAction="#ClickDibujar" prefHeight="26.0" prefWidth="51.0" text="Draw" />
-      <Canvas id="canvas" fx:id="canvas" height="278.0" layoutX="320.0" layoutY="43.0" width="235.0">
+      <Canvas id="canvas" fx:id="canvas" height="278.0" layoutX="306.0" layoutY="42.0" width="449.0">
          <effect>
             <Glow />
          </effect>

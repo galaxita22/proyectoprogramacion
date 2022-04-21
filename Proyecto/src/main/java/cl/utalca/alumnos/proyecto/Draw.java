@@ -10,7 +10,6 @@ public class Draw {
     private static final int[] valores = {0,30,60,90,120,150,180,210,240,270};
     /*dibujos para num y oper
     la altura está entre 100 y 140*/
-
     public static void Dibujar0(GraphicsContext gc, int contador, int b) {
         int a = valores[contador];
         gc.beginPath();

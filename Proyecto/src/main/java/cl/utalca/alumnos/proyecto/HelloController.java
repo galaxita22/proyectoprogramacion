@@ -18,7 +18,7 @@ import java.util.ResourceBundle;
 
 public class HelloController implements Initializable{
 
-    private static int contador;
+    private static int contador, b;
 
     @FXML
     private TextField textInput;
@@ -35,6 +35,8 @@ public class HelloController implements Initializable{
         textInput.setText("");
         statusA = 2;
         statusB = statusA;
+        gc.clearRect(0,0,449,278);
+        contador = 0;
     }
 
     public void ClickBorrar (ActionEvent borrauno){
@@ -44,6 +46,7 @@ public class HelloController implements Initializable{
             textInput.setText(borrar);
             statusA = statusB;
             contador-=1;
+            //gc.clearRect();
             //Borrar en canvas
         }
     }
@@ -57,47 +60,56 @@ public class HelloController implements Initializable{
         switch (numero) {
 
             case "1" -> {
-                Draw.Dibujar1(gc, contador);
+                Draw.Dibujar1(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "2" -> {
-                Draw.Dibujar2(gc, contador);
+                Draw.Dibujar2(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "3" -> {
-                Draw.Dibujar3(gc, contador);
+                Draw.Dibujar3(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "4" -> {
-                Draw.Dibujar4(gc, contador);
+                Draw.Dibujar4(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "5" -> {
-                Draw.Dibujar5(gc, contador);
+                Draw.Dibujar5(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "6" -> {
-                Draw.Dibujar6(gc, contador);
+                Draw.Dibujar6(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "7" -> {
-                Draw.Dibujar7(gc, contador);
+                Draw.Dibujar7(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "8" -> {
-                Draw.Dibujar8(gc, contador);
+                Draw.Dibujar8(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             case "9" -> {
-                Draw.Dibujar9(gc, contador);
+
+                Draw.Dibujar9(gc, contador,b);
                 contador += 1;
+                b=0;
             }
             default -> {
-                Draw.Dibujar0(gc, contador);
+                Draw.Dibujar0(gc, contador,b);
                 contador += 1;
             }
         }
-
     }
 
     public void ClickOperadores (ActionEvent oper){
@@ -120,8 +132,9 @@ public class HelloController implements Initializable{
                 contador +=1;
             }
             case"/" ->{
+                contador-=1;
                 Draw.DibujarDivision(gc, contador);
-                contador +=1;
+                b=60;
             }
         }
     }
@@ -134,11 +147,6 @@ public class HelloController implements Initializable{
         statusA = 3;
     }
 
-    @FXML
-    public void ClickDibujar (ActionEvent draw){
-        gc.setFill(Color.AQUA);
-        gc.fillRect(10,10,100,100);
-    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

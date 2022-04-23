@@ -1,8 +1,6 @@
 package cl.utalca.alumnos.proyecto;
 
-import javafx.event.ActionEvent;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 
 

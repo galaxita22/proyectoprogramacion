@@ -2,17 +2,11 @@ package cl.utalca.alumnos.proyecto;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
-import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
-import javafx.scene.paint.Color;
-import javafx.stage.Stage;
-import org.controlsfx.control.action.Action;
-
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -28,8 +22,6 @@ public class HelloController implements Initializable{
     public Canvas canvas;
     private GraphicsContext gc;
 
-    @FXML
-    private Button draw;
 
     public void ClickBorrarTodo (ActionEvent borratodo){
         textInput.setText("");
@@ -39,7 +31,7 @@ public class HelloController implements Initializable{
         contador = 0;
     }
 
-    public void ClickBorrar (ActionEvent borrauno){
+    /*public void ClickBorrar (ActionEvent borrauno){
         String borrar = textInput.getText();
         if(borrar != null && borrar.length() > 0){
             borrar = borrar.substring(0, borrar.length()-1);
@@ -49,7 +41,7 @@ public class HelloController implements Initializable{
             //gc.clearRect();
             //Borrar en canvas
         }
-    }
+    }*/
 
     public void ClickNumero (ActionEvent num){
         String numero = ((Button)num.getSource()).getText();
@@ -58,7 +50,6 @@ public class HelloController implements Initializable{
         statusA = 1;
 
         switch (numero) {
-
             case "1" -> {
                 Draw.Dibujar1(gc, contador,b);
                 contador += 1;
@@ -110,7 +101,8 @@ public class HelloController implements Initializable{
                 else{
                 Draw.Dibujar0(gc, contador,b);
                 contador += 1;
-            }}
+                }
+            }
         }
     }
 

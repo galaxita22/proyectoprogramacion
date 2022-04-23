@@ -144,8 +144,7 @@ public class Draw {
     public static void DibujarResta(GraphicsContext gc, int contador) {
         int a = valores[contador];
         gc.beginPath();
-        gc.moveTo(20 + a, 120);
-        gc.lineTo(15 + a, 120);
+        gc.moveTo(15 + a, 120);
         gc.lineTo(25 + a, 120);
         gc.setStroke(Color.RED);
         gc.stroke();
@@ -153,10 +152,10 @@ public class Draw {
     public static void DibujarMultiplicacion(GraphicsContext gc, int contador){
         int a = valores[contador];
         gc.beginPath();
-        gc.moveTo(20 + a, 120);
-        gc.lineTo(25 + a, 125);
-        gc.moveTo(25 + a, 120);
-        gc.lineTo(20 + a, 125);
+        gc.moveTo(20 + a, 117.5);
+        gc.lineTo(25 + a, 122.5);
+        gc.moveTo(25 + a, 117.5);
+        gc.lineTo(20 + a, 122.5);
         gc.setStroke(Color.RED);
         gc.stroke();
     }

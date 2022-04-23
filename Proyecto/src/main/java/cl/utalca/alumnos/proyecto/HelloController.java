@@ -22,7 +22,7 @@ public class HelloController implements Initializable{
 
     @FXML
     private TextField textInput;
-    public int statusA = 2, statusB = 2;
+    public int statusA = 2, statusB = 2, statusC;
 
     @FXML
     public Canvas canvas;
@@ -106,9 +106,11 @@ public class HelloController implements Initializable{
                 b=0;
             }
             default -> {
+                if(b==60){}
+                else{
                 Draw.Dibujar0(gc, contador,b);
                 contador += 1;
-            }
+            }}
         }
     }
 

@@ -11,10 +11,10 @@ public class HelloApplication extends Application {
 
     public void  start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 360);
+        Scene scene = new Scene(fxmlLoader.load(), 650, 400);
         stage.setTitle("Calculadora");
         stage.setScene(scene);
-        Image icon = new Image(getClass().getResourceAsStream("/cl/utalca/alumnos/proyecto/images/icon.png"));
+        Image icon = new Image(getClass().getResourceAsStream("/cl/utalca/alumnos/proyecto/images/logo.png"));
         stage.getIcons().add(icon);
         stage.show();
     }

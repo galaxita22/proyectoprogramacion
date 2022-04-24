@@ -141,7 +141,6 @@ public class HelloController implements Initializable{
         statusA = 3;
     }
 
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         gc = canvas.getGraphicsContext2D();

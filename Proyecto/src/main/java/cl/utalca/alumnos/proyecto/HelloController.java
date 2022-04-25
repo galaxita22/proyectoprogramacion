@@ -29,6 +29,7 @@ public class HelloController implements Initializable{
         statusB = statusA;
         gc.clearRect(0,0,449,278);
         contador = 0;
+        b=0;
     }
 
     /*public void ClickBorrar (ActionEvent borrauno){

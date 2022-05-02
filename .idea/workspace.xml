@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="implementacion logo app">
+    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="Cambio color de parentesis a amarillo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +51,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectoprogramacion-main" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bespi\Documents\Codes\proyectoprogramacion\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto" />
@@ -126,6 +115,8 @@
       <workItem from="1650828786143" duration="323000" />
       <workItem from="1650830378093" duration="17000" />
       <workItem from="1651504071319" duration="4985000" />
+      <workItem from="1651518943079" duration="602000" />
+      <workItem from="1651519582826" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -216,16 +207,17 @@
     <MESSAGE value="Optimización de Código" />
     <MESSAGE value="funcion borrauno como comentario + optimizacion de codigo" />
     <MESSAGE value="implementacion logo app" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacion logo app" />
+    <MESSAGE value="Cambio color de parentesis a amarillo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio color de parentesis a amarillo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/proyectoprogramacion5$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650742121601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/proyectoprogramacion8$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650829064214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/proyectoprogramacion8$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650829064214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/proyectoprogramacion5$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650742121601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
     </SUITE>
   </component>

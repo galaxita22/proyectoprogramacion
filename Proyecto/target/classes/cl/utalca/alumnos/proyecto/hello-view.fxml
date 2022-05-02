@@ -130,14 +130,14 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button mnemonicParsing="false" onAction="#ClickParentesis" prefHeight="122.0" prefWidth="104.0" style="-fx-background-color: #7b7b7b;" text="(" textFill="WHITE" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" onAction="#ClickPrimerParentesis" prefHeight="122.0" prefWidth="104.0" style="-fx-background-color: #7b7b7b;" text="(" textFill="WHITE" GridPane.rowIndex="3">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button mnemonicParsing="false" onAction="#ClickParentesis" prefHeight="87.0" prefWidth="83.0" style="-fx-background-color: #7b7b7b;" text=")" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" onAction="#ClickSegundoParentesis" prefHeight="87.0" prefWidth="83.0" style="-fx-background-color: #7b7b7b;" text=")" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>

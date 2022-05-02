@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="implementacion logo app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/images/icon.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectoprogramacion-main" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,6 +125,7 @@
       <workItem from="1650746124412" duration="14935000" />
       <workItem from="1650828786143" duration="323000" />
       <workItem from="1650830378093" duration="17000" />
+      <workItem from="1651504071319" duration="4985000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>

@@ -7,12 +7,14 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
+
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class HelloController implements Initializable{
 
-    private static int contador, b;
+    private static int a, b;
 
     @FXML
     private TextField textInput;
@@ -23,12 +25,13 @@ public class HelloController implements Initializable{
     private GraphicsContext gc;
 
 
+
     public void ClickBorrarTodo (ActionEvent borratodo){
         textInput.setText("");
         statusA = 2;
         statusB = statusA;
         gc.clearRect(0,0,449,278);
-        contador = 0;
+        a = 0;
         b=0;
     }
 
@@ -52,56 +55,56 @@ public class HelloController implements Initializable{
 
         switch (numero) {
             case "1" -> {
-                Draw.Dibujar1(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar1(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "2" -> {
-                Draw.Dibujar2(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar2(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "3" -> {
-                Draw.Dibujar3(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar3(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "4" -> {
-                Draw.Dibujar4(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar4(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "5" -> {
-                Draw.Dibujar5(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar5(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "6" -> {
-                Draw.Dibujar6(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar6(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "7" -> {
-                Draw.Dibujar7(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar7(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "8" -> {
-                Draw.Dibujar8(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar8(gc, a,b);
+                a += 30;
                 b=0;
             }
             case "9" -> {
 
-                Draw.Dibujar9(gc, contador,b);
-                contador += 1;
+                Draw.Dibujar9(gc, a,b);
+                a += 30;
                 b=0;
             }
             default -> {
                 if(b==60){}
                 else{
-                Draw.Dibujar0(gc, contador,b);
-                contador += 1;
+                    Draw.Dibujar0(gc, a,b);
+                    a += 30;
                 }
             }
         }
@@ -109,37 +112,50 @@ public class HelloController implements Initializable{
 
     public void ClickOperadores (ActionEvent oper){
         if (statusA != 2){
-        String operador = ((Button)oper.getSource()).getText();
-        textInput.setText(textInput.getText()+operador);
-        statusB = statusA;
-        statusA = 2;
-        switch (operador) {
-            case"+" ->{
-                Draw.DibujarSuma(gc, contador);
-                contador += 1;
-            }
-            case"-" ->{
-                Draw.DibujarResta(gc, contador);
-                contador +=1;
-            }
-            case"*" ->{
-                Draw.DibujarMultiplicacion(gc, contador);
-                contador +=1;
-            }
-            case"/" ->{
-                contador-=1;
-                Draw.DibujarDivision(gc, contador);
-                b=60;
+            String operador = ((Button)oper.getSource()).getText();
+            textInput.setText(textInput.getText()+operador);
+            statusB = statusA;
+            statusA = 2;
+            switch (operador) {
+                case"+" ->{
+                    Draw.DibujarSuma(gc, a);
+                    a += 30;
+                }
+                case"-" ->{
+                    Draw.DibujarResta(gc, a);
+                    a += 30;
+                }
+                case"*" ->{
+                    Draw.DibujarMultiplicacion(gc, a);
+                    a += 30;
+                }
+                case"/" ->{
+                    a-=30;
+                    Draw.DibujarDivision(gc, a);
+                    b=60;
+                }
+
+
             }
         }
     }
-    }
 
-    public void ClickParentesis (ActionEvent par){
+
+    public void ClickPrimerParentesis (ActionEvent par){
         String parentesis = ((Button)par.getSource()).getText();
         textInput.setText(textInput.getText()+parentesis);
         statusB = statusA;
         statusA = 3;
+        Draw.DibujarPrimerParentesis(gc, a);
+        a+=30;
+    }
+    public void  ClickSegundoParentesis(ActionEvent par2){
+        String parentesis = ((Button)par2.getSource()).getText();
+        textInput.setText(textInput.getText()+parentesis);
+        statusB = statusA;
+        statusA = 3;
+        Draw.DibujarSegundoParentesis(gc, a);
+        a+=30;
     }
 
     @Override

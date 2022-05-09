@@ -18,7 +18,7 @@ public class HelloController implements Initializable{
 
     @FXML
     private TextField textInput;
-    public int statusA = 2, statusB = 2, statusC;
+    public int statusA = 2, statusB = 2, statusParentesis = 0, statusC;
 
     @FXML
     public Canvas canvas;
@@ -30,7 +30,7 @@ public class HelloController implements Initializable{
         textInput.setText("");
         statusA = 2;
         statusB = statusA;
-        gc.clearRect(0,0,449,278);
+        gc.clearRect(0,0,515,313);
         a = 0;
         b=0;
     }
@@ -146,16 +146,20 @@ public class HelloController implements Initializable{
         textInput.setText(textInput.getText()+parentesis);
         statusB = statusA;
         statusA = 3;
+        statusParentesis+=1;
+
         Draw.DibujarPrimerParentesis(gc, a);
         a+=30;
     }
     public void  ClickSegundoParentesis(ActionEvent par2){
         String parentesis = ((Button)par2.getSource()).getText();
-        textInput.setText(textInput.getText()+parentesis);
-        statusB = statusA;
-        statusA = 3;
-        Draw.DibujarSegundoParentesis(gc, a);
-        a+=30;
+        if(statusParentesis > 0){
+            statusParentesis -=1;
+            textInput.setText(textInput.getText()+parentesis);
+            statusB = statusA;
+            statusA = 3;
+            Draw.DibujarSegundoParentesis(gc, a);
+            a+=30;}
     }
 
     @Override

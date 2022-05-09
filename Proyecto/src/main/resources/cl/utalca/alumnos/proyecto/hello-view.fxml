@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="804.0" style="-fx-background-color: #242424;" styleClass="mainPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.utalca.alumnos.proyecto.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="848.0" style="-fx-background-color: #242424;" styleClass="mainPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.utalca.alumnos.proyecto.HelloController">
    <children>
 
       <TextField fx:id="textInput" layoutX="33.0" layoutY="45.0" prefHeight="26.0" prefWidth="255.0">
@@ -17,7 +17,6 @@
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor></TextField>
-      <HBox fx:id="exprHbox" layoutY="99.0" />
       <GridPane layoutX="33.0" layoutY="91.0" prefHeight="229.0" prefWidth="255.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -146,11 +145,14 @@
                </cursor></Button>
          </children>
       </GridPane>
-      <Canvas id="canvas" fx:id="canvas" height="313.0" layoutX="306.0" layoutY="43.0" style="-fx-background-color: #bcbcbc;" width="506.0">
-         <effect>
-            <Glow />
-         </effect>
-      </Canvas>
+      <Pane layoutX="303.0" layoutY="42.0" prefHeight="320.0" prefWidth="521.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Canvas id="canvas" fx:id="canvas" height="313.0" layoutX="3.0" layoutY="4.0" style="-fx-background-color: #bcbcbc;" width="515.0">
+               <effect>
+                  <Glow />
+               </effect>
+            </Canvas>
+         </children></Pane>
       <Button layoutX="33.0" layoutY="320.0" mnemonicParsing="false" onAction="#ClickBorrarTodo" prefHeight="36.0" prefWidth="255.0" style="-fx-background-color: #f44336;" text="C" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />

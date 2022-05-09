@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="Cambio color de parentesis a amarillo">
+    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="implementación de fondo blanco para el canvas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +117,7 @@
       <workItem from="1651504071319" duration="4985000" />
       <workItem from="1651518943079" duration="602000" />
       <workItem from="1651519582826" duration="139000" />
+      <workItem from="1652059084833" duration="2628000" />
     </task>
     <task id="LOCAL-00001" summary="dibujar numero 6">
       <created>1650299795401</created>
@@ -208,7 +209,8 @@
     <MESSAGE value="funcion borrauno como comentario + optimizacion de codigo" />
     <MESSAGE value="implementacion logo app" />
     <MESSAGE value="Cambio color de parentesis a amarillo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio color de parentesis a amarillo" />
+    <MESSAGE value="implementación de fondo blanco para el canvas" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementación de fondo blanco para el canvas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

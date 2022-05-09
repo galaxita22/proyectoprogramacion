@@ -170,14 +170,14 @@ public class Draw {
     public static void  DibujarPrimerParentesis(GraphicsContext gc, int a){
         gc.beginPath();
         gc.moveTo(30+a, 100);
-        gc.setStroke(Color.YELLOW);
+        gc.setStroke(Color.GOLDENROD    );
         gc.strokeArc(15+a, 95, 10, 50, 90, 180, ArcType.OPEN);
         gc.stroke();
     }
     public static void  DibujarSegundoParentesis(GraphicsContext gc, int a){
         gc.beginPath();
         gc.moveTo(30+a, 100);
-        gc.setStroke(Color.YELLOW);
+        gc.setStroke(Color.GOLDENROD);
         gc.strokeArc(15+a, 95, 10, 50, 270, 180, ArcType.OPEN);
         gc.stroke();
     }

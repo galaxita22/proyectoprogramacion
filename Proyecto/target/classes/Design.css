@@ -1,8 +1,7 @@
 .root{
-    -fx-background-color: #222;
-    -fx-background-radius: 28;
-}
-.mainPane{
     -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+    /*
+    la funcion que se encuentra comentada es para crearle un 
     -fx-background-radius: 15 15 25 25;
+    */
 }

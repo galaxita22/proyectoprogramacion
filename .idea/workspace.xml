@@ -4,61 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="Reestruc">
-      <change afterPath="$PROJECT_DIR$/Proyecto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/functions/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/functions/numbers/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/functions/operators/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/Design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proyectoprogramacion-main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proyectoprogramacion.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Proyecto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/Design.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/images/descartado/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/Design.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/Draw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/images/descartado/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,15 +36,15 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bespi/Documents/Codes/Proyecto"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bespi/Documents/Codes/Proyecto&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto" />
@@ -156,6 +105,8 @@
       <workItem from="1652153060747" duration="1040000" />
       <workItem from="1652461036419" duration="2760000" />
       <workItem from="1652481428547" duration="1573000" />
+      <workItem from="1652483136440" duration="351000" />
+      <workItem from="1652660096943" duration="3703000" />
     </task>
     <servers />
   </component>

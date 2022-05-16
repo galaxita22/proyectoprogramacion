@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="">
+    <list default="true" id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="Arreglo momentaneo para el problema de color de parentesis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/funciones/Dibuja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/funciones/Dibuja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cl/utalca/alumnos/proyecto/calculadora.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cl/utalca/alumnos/proyecto/calculadora.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cl/utalca/alumnos/proyecto/funciones/Dibuja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cl/utalca/alumnos/proyecto/funciones/Dibuja.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +107,16 @@
       <workItem from="1652481428547" duration="1573000" />
       <workItem from="1652483136440" duration="351000" />
       <workItem from="1652660096943" duration="3703000" />
-      <workItem from="1652669644145" duration="3503000" />
+      <workItem from="1652669644145" duration="3964000" />
     </task>
+    <task id="LOCAL-00001" summary="Arreglo momentaneo para el problema de color de parentesis">
+      <created>1652673845048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652673845048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Arreglo momentaneo para el problema de color de parentesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo momentaneo para el problema de color de parentesis" />
   </component>
 </project>

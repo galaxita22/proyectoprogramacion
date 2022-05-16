@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="implementación de fondo blanco para el canvas">
-      <change afterPath="$PROJECT_DIR$/Proyecto/src/main/resources/Design.css" afterDir="false" />
+    <list default="true" id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Design.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/java/cl/utalca/alumnos/proyecto/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/src/main/resources/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/target/classes/cl/utalca/alumnos/proyecto/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/utalca/alumnos/proyecto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cl/utalca/alumnos/proyecto/calculadora.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,53 +17,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27XSTZkthDuvqzHtTTpURcyEy82" />
+  <component name="ProjectId" id="28x0O1UEbVXwcVkpG7oOtGtx4YB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bespi/Documents/Codes/Proyecto&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bespi\Documents\Codes\proyectoprogramacion\Proyecto\src\main\resources" />
-      <recent name="C:\Users\bespi\Documents\Codes\proyectoprogramacion\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto" />
+      <recent name="C:\Users\bespi\Documents\Codes\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto" />
+      <recent name="C:\Users\bespi\Documents\Codes\Proyecto\src\main\resources\cl\utalca\alumnos\proyecto\images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cl.utalca.alumnos.proyecto" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cl.utalca.alumnos.proyecto.HelloApplication" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.utalca.alumnos.proyecto.Main" />
       <module name="Proyecto" />
       <extension name="coverage">
         <pattern>
@@ -78,109 +71,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.utalca.alumnos.proyecto.Main" />
+      <module name="Proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.utalca.alumnos.proyecto.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76dfd01d-d8c9-4edc-bbc1-41a578d5866a" name="Changes" comment="prueba" />
-      <created>1649464950589</created>
+      <changelist id="4b5bc249-7e40-45c4-8f4b-71c0c6435fdc" name="Changes" comment="" />
+      <created>1652142893904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649464950589</updated>
-      <workItem from="1649464953216" duration="40000" />
-      <workItem from="1649465226918" duration="43000" />
-      <workItem from="1649465305761" duration="60000" />
-      <workItem from="1649465540829" duration="229000" />
-      <workItem from="1650154355798" duration="240000" />
-      <workItem from="1650161397327" duration="613000" />
-      <workItem from="1650163451148" duration="770000" />
-      <workItem from="1650172374493" duration="142000" />
-      <workItem from="1650253297533" duration="2000" />
-      <workItem from="1650253316879" duration="271000" />
-      <workItem from="1650298395504" duration="719000" />
-      <workItem from="1650299123535" duration="2751000" />
-      <workItem from="1650302993145" duration="895000" />
-      <workItem from="1650304917095" duration="29000" />
-      <workItem from="1650306064954" duration="296000" />
-      <workItem from="1650306620501" duration="2463000" />
-      <workItem from="1650336991716" duration="623000" />
-      <workItem from="1650340302013" duration="916000" />
-      <workItem from="1650513952634" duration="3183000" />
-      <workItem from="1650632367793" duration="2695000" />
-      <workItem from="1650741484202" duration="792000" />
-      <workItem from="1650744601325" duration="1501000" />
-      <workItem from="1650746124412" duration="14935000" />
-      <workItem from="1650828786143" duration="323000" />
-      <workItem from="1650830378093" duration="17000" />
-      <workItem from="1651504071319" duration="4985000" />
-      <workItem from="1651518943079" duration="602000" />
-      <workItem from="1651519582826" duration="139000" />
-      <workItem from="1652059084833" duration="2628000" />
-      <workItem from="1652061935270" duration="2432000" />
-      <workItem from="1652064433536" duration="4382000" />
+      <updated>1652142893904</updated>
+      <workItem from="1652142895161" duration="9374000" />
+      <workItem from="1652152423821" duration="67000" />
+      <workItem from="1652152622553" duration="309000" />
+      <workItem from="1652153060747" duration="1040000" />
+      <workItem from="1652461036419" duration="2760000" />
+      <workItem from="1652481428547" duration="1573000" />
+      <workItem from="1652483136440" duration="351000" />
+      <workItem from="1652660096943" duration="3703000" />
     </task>
-    <task id="LOCAL-00001" summary="dibujar numero 6">
-      <created>1650299795401</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1650299795401</updated>
-    </task>
-    <task id="LOCAL-00002" summary="dibuja 7">
-      <created>1650300107580</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650300107580</updated>
-    </task>
-    <task id="LOCAL-00003" summary="dibuja 8">
-      <created>1650300614948</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650300614948</updated>
-    </task>
-    <task id="LOCAL-00004" summary="dibuja 9">
-      <created>1650301119822</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650301119822</updated>
-    </task>
-    <task id="LOCAL-00005" summary="prueba">
-      <created>1650340656980</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650340656980</updated>
-    </task>
-    <task id="LOCAL-00006" summary="funcion borrauno como comentario + optimizacion de codigo">
-      <created>1650746561110</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650746561110</updated>
-    </task>
-    <task id="LOCAL-00007" summary="implementacion logo app">
-      <created>1650752285853</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1650752285853</updated>
-    </task>
-    <task id="LOCAL-00008" summary="implementacion logo app">
-      <created>1650752512517</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1650752512517</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,13 +118,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -205,27 +126,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dibujar numero 6" />
-    <MESSAGE value="dibuja 7" />
-    <MESSAGE value="dibuja 8" />
-    <MESSAGE value="dibuja 9" />
-    <MESSAGE value="prueba" />
-    <MESSAGE value="Optimización de Código" />
-    <MESSAGE value="funcion borrauno como comentario + optimizacion de codigo" />
-    <MESSAGE value="implementacion logo app" />
-    <MESSAGE value="Cambio color de parentesis a amarillo" />
-    <MESSAGE value="implementación de fondo blanco para el canvas" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementación de fondo blanco para el canvas" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/proyectoprogramacion4$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650337581945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/proyectoprogramacion8$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650829064214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/proyectoprogramacion5$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1650742121601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cl.utalca.alumnos.proyecto.*</FILTER>
-    </SUITE>
   </component>
 </project>

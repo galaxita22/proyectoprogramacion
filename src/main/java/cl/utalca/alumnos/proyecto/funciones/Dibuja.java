@@ -1,6 +1,7 @@
 package cl.utalca.alumnos.proyecto.funciones;
 
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.ArcType;
 
 public class Dibuja {
@@ -22,8 +23,9 @@ public class Dibuja {
                 gc.moveTo(start, end);
             }
         }
-        //gc.setStroke(Color.DEEPSKYBLUE);
+        gc.setStroke(Color.DEEPSKYBLUE);
         gc.stroke();
+        gc.setStroke(Color.BLACK);
     }
 
     public static void drawOper(GraphicsContext gc, int posX, String[] operators ) {
@@ -50,7 +52,8 @@ public class Dibuja {
                 gc.strokeArc(start, end, CC, DD, EE, FF, TYPE);
             }
         }
-        //gc.setStroke(Color.RED);
+        gc.setStroke(Color.RED);
         gc.stroke();
+        gc.setStroke(Color.BLACK);
     }
 }
